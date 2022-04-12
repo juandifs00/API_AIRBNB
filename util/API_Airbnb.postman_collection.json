@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "176916f1-77dc-4455-9e7b-c70a969cf37c",
+		"name": "API_Airbnb",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "airbnb",
+			"item": [
+				{
+					"name": "all-properties",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/airbnb/all-properties",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"airbnb",
+								"all-properties"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "types",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/airbnb/types",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"airbnb",
+								"types"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reviews",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/airbnb/reviews",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"airbnb",
+								"reviews"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Nbr_Beds",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/airbnb/beds/50",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"airbnb",
+								"beds",
+								"50"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
